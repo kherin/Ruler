@@ -22,7 +22,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-receive": "echo test"
+      "pre-push": "echo test"
     }
   }
 }
