@@ -23,7 +23,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-push": "node enforcer.js"
+      "pre-commit": "node enforcer.js"
     }
   }
 }
