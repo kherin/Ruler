@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "node enforcer.js"
+      "pre-commit": "node enforcer.js"
     }
   }
 }
