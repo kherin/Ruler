@@ -18,11 +18,12 @@
   },
   "homepage": "https://github.com/kherin/Ruler#readme",
   "devDependencies": {
-    "ghooks": "^2.0.4"
+    "ghooks": "^2.0.4",
+    "inquirer": "^7.3.3"
   },
   "config": {
     "ghooks": {
-      "pre-push": "echo test"
+      "pre-push": "node enforcer.js"
     }
   }
 }
