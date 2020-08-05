@@ -1,0 +1,28 @@
+{
+  "name": "Ruler",
+  "version": "1.0.0",
+  "description": "A pre-receive git hook implementation that reads a config file and display a set of recommended coding standards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kherin/Ruler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kherin/Ruler/issues"
+  },
+  "homepage": "https://github.com/kherin/Ruler#readme",
+  "devDependencies": {
+    "ghooks": "^2.0.4"
+  },
+  "config": {
+    "ghooks": {
+      "pre-receive": "echo test"
+    }
+  }
+}
