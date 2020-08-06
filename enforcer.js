@@ -17,6 +17,6 @@ const choices = ['Option 1', 'Option 2', 'Option 3'];
         ]);
 
     console.log('answers: ', answers);
-    process.exit(0);
+    // process.exit(0);
 })();
 
