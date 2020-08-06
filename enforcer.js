@@ -4,8 +4,7 @@ const inquirer = require('inquirer');
 const name = 'standards';
 const choices = ['Option 1', 'Option 2', 'Option 3'];
 
-(async function () {
-
+async function prompt() {
     const answers = await inquirer
         .prompt([
             {
@@ -15,8 +14,7 @@ const choices = ['Option 1', 'Option 2', 'Option 3'];
                 choices: choices
             }
         ]);
-
     console.log('answers: ', answers);
-    // process.exit(0);
-})();
+}
 
+prompt();
