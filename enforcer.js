@@ -15,6 +15,7 @@ async function prompt() {
             }
         ]);
     console.log('answers: ', answers);
+    process.exit(0);
 }
 
 prompt();
